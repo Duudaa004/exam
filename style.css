@@ -356,118 +356,6 @@ footer {
     margin-right: auto;
 }
 
-@media (max-width: 430px) {
-    header {
-        max-width: 400px;
-    }
-    .header-nav {
-        display: none;
-    }
-    .sell-button {
-        display: none;
-    }
-    .header {
-        max-width: 400px;
-        display: flex;
-        justify-content: space-between;
-    }
-    .search-header {
-        display: block;
-        box-shadow: 0px 4px 25px 0px #C2C2C24F;
-        color: #F8F8F8;
-        width: 44px;
-        height: 44px;
-        top: 40px;
-        left: 309px;
-        gap: 0px;
-        border-radius: 24px 0px 0px 0px;
-    }
-    .main-section {
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-    .side-nav {
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .main {
-        max-width: 410px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .h1-main {
-        max-width: 400px;
-    }
-    .main-image {
-        max-width: 400px;
-    }
-
-    .search {
-        display: none;
-    }
-    .search-bar {
-        display: none;
-    }
-    .ads{
-        width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .item {
-        max-width: 420px;
-    }
-    footer {
-        max-width: 420px;
-        height: 300px;
-        padding-top: 50px;
-        margin: 0;
-    }
-    .footer {
-        display: flex;
-        flex-direction: column;
-    }
-    .first-footer-middle {
-        display: none;
-    }
-    .footer-top {
-        max-width: 390px;
-        height: 200px;
-        display: flex;
-        justify-content: space-between;
-        gap: 130px;
-    }
-
-    .footer-link-right{
-        text-align: right;
-    }
-
-    .first-footer {
-        display: flex;
-        flex-direction: column;
-    }
-    .bottom-footer {
-        height: 50px;
-        width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .bottom-footer::before{
-        display: block;
-        max-width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 /* product.html's css only */
 
 .product-offer {
@@ -590,3 +478,163 @@ h4{
     color: #FFFFFF;
 }
 
+@media (max-width: 430px) 
+     {
+        header {
+            max-width: 400px;
+        }
+        .header-nav {
+            display: none;
+        }
+        .sell-button {
+            display: none;
+        }
+        .header {
+            max-width: 400px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .search-header {
+            display: block;
+            box-shadow: 0px 4px 25px 0px #C2C2C24F;
+            color: #F8F8F8;
+            width: 44px;
+            height: 44px;
+            top: 40px;
+            left: 309px;
+            gap: 0px;
+            border-radius: 24px 0px 0px 0px;
+        }
+        .main-section {
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
+        .side-nav {
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .main {
+            max-width: 410px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .h1-main {
+            max-width: 400px;
+        }
+        .main-image {
+            max-width: 400px;
+        }
+    
+        .search {
+            display: none;
+        }
+        .search-bar {
+            display: none;
+        }
+        .ads{
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .item {
+            max-width: 420px;
+            margin-bottom: 50px;
+        }
+        footer {
+            max-width: 420px;
+            height: 300px;
+            padding-top: 50px;
+            margin: 0;
+        }
+        .footer {
+            display: flex;
+            flex-direction: column;
+        }
+        .first-footer-middle {
+            display: none;
+        }
+        .footer-top {
+            max-width: 390px;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            gap: 130px;
+        }
+    
+        .footer-link-right{
+            text-align: right;
+        }
+    
+        .first-footer {
+            display: flex;
+            flex-direction: column;
+        }
+        .bottom-footer {
+            height: 50px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .bottom-footer::before{
+            display: block;
+            max-width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .product-offer {
+            width: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .main-hotel-div {
+            max-width: 390px;
+        }
+        .main-hotel {
+            max-width: 390px;
+            max-height: 400px;
+        }
+        .hotel-description {
+            margin-top: 50px;
+            max-width: 400px;
+            height: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .full-description {
+            max-width: 390px;
+            gap: 15px;
+        }
+        .product-footer {
+            display: flex;
+            flex-direction: column;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .message-button {
+            padding-top: 5px;
+            height: 40px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .call-button{
+            padding-top: 5px;
+            height: 40px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        
+}
